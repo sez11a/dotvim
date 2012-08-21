@@ -8,7 +8,8 @@ if has ('gui_running')
 	set guifont=PT\ Mono\ 10
 endif
 
-colorscheme slate
+" colorscheme slate
+colorscheme candycode
 
 " No vi compatibility
 set nocompatible
@@ -26,3 +27,5 @@ set number
 " Save when focus is lost
 au FocusLost * :wa
 
+" Custom key combos
+nmap <silent> <F3> :NERDTreeToggle<CR>
