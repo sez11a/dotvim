@@ -3,9 +3,11 @@ call pathogen#infect()
 syntax on
 filetype plugin indent on
 
-" Set the font
+" Set the font and window size
 if has ('gui_running')
 	set guifont=PT\ Mono\ 10
+	set lines=50
+	set columns=150
 endif
 
 " colorscheme slate
