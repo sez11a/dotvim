@@ -10,6 +10,7 @@ endif
 
 " colorscheme slate
 colorscheme candycode
+" colorscheme wuye
 
 " No vi compatibility
 set nocompatible
