@@ -17,6 +17,7 @@ colorscheme candycode
 " No vi compatibility
 set nocompatible
 
+set tabstop=4
 set ignorecase
 set smartcase
 
