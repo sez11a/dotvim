@@ -11,8 +11,10 @@ if has ('gui_running')
 endif
 
 " colorscheme slate
-colorscheme candycode
+" colorscheme candycode
 " colorscheme wuye
+set background=dark
+colorscheme solarized
 
 " No vi compatibility
 set nocompatible
