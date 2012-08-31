@@ -14,7 +14,10 @@ endif
 " colorscheme candycode
 " colorscheme wuye
 set background=dark
-colorscheme solarized
+" colorscheme solarized
+" colorscheme adaryn
+colorscheme af
+" colorscheme black_angus
 
 " No vi compatibility
 set nocompatible
