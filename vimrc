@@ -23,12 +23,13 @@ colorscheme af
 set nocompatible
 
 set tabstop=4
+set expandtab 
 set ignorecase
 set smartcase
 
-set wrap
-set textwidth=80
 set number
+execute "set colorcolumn=" . join(range(81,335), ',')
+hi ColorColumn guibg=#2d2d2d ctermbg=246
 
 " nnoremap j gj
 " nnoremap k gk
@@ -48,6 +49,9 @@ func! WordProcessorMode()
   set thesaurus+=/home/rsezov/.vim/thesaurus/mthesaur.txt
   set complete+=s
   " setlocal linebreak 
+  set wrap
+  set textwidth=80
+
 endfu 
 com! WP call WordProcessorMode()
 
