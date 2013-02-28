@@ -55,3 +55,10 @@ func! WordProcessorMode()
 endfu 
 com! WP call WordProcessorMode()
 
+" Back to code mode
+func! CodeMode()
+        setlocal expandtab
+        set nowrap
+
+endfu
+com! CODE call CodeMode()
