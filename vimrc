@@ -16,7 +16,8 @@ endif
 set background=dark
 " colorscheme solarized
 " colorscheme adaryn
-colorscheme af
+" colorscheme af
+colorscheme xoria256-pluk
 " colorscheme black_angus
 
 " No vi compatibility
