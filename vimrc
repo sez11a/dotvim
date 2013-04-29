@@ -38,12 +38,15 @@ hi ColorColumn guibg=#2d2d2d ctermbg=246
 " Save when focus is lost
 au FocusLost * :wa
 
+" Turn on omnicompletion
+filetype plugin on
+set ofu=syntaxcomplete#Complete
+
 " Custom key combos
 nmap <silent> <F3> :NERDTreeToggle<CR>
 
 func! WordProcessorMode() 
   " setlocal formatoptions=1 
-  setlocal noexpandtab 
   map j gj 
   map k gk
   setlocal spell spelllang=en_us 
