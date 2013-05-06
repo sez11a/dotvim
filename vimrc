@@ -66,3 +66,36 @@ func! CodeMode()
 
 endfu
 com! CODE call CodeMode()
+
+" Idea: put a WRITE function here
+" that makes the font really big. Then 
+" vim can be maximized so the screen fills
+" with a minimalistic editor with abou 90 columns
+" to the width of the screen. 
+"
+
+""" FocusMode
+function! ToggleFocusMode()
+if (&foldcolumn != 12)
+    set laststatus=0
+    set numberwidth=10
+    set foldcolumn=12
+    set noruler
+    hi FoldColumn ctermbg=none
+    hi LineNr ctermfg=0 ctermbg=none
+    hi NonText ctermfg=0
+else
+    set laststatus=2
+    set numberwidth=4
+    set foldcolumn=0
+    set ruler
+    execute 'colorscheme ' . g:colors_name
+endif
+
+if has ('gui_running')
+	set guifont=PT\ Mono\ 18
+endif
+
+endfunc
+
+nnoremap <F4> :call ToggleFocusMode()<cr>
