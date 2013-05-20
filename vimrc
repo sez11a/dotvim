@@ -27,8 +27,8 @@ set tabstop=4
 set expandtab 
 set ignorecase
 set smartcase
-
 set number
+set clipboard=unnamedplus
 execute "set colorcolumn=" . join(range(81,335), ',')
 hi ColorColumn guibg=#2d2d2d ctermbg=246
 
