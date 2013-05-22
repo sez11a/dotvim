@@ -84,17 +84,26 @@ if (&foldcolumn != 12)
     hi FoldColumn ctermbg=none
     hi LineNr ctermfg=0 ctermbg=none
     hi NonText ctermfg=0
+
+    if has ('gui_running')
+	    set guifont=PT\ Mono\ 18
+    endif
+
 else
     set laststatus=2
     set numberwidth=4
     set foldcolumn=0
     set ruler
     execute 'colorscheme ' . g:colors_name
+
+    if has ('gui_running')
+            set guifont=PT\ Mono\ 10
+            execute "set colorcolumn=" . join(range(81,335), ',')
+            hi ColorColumn guibg=#2d2d2d ctermbg=246
+    endif
+
 endif
 
-if has ('gui_running')
-	set guifont=PT\ Mono\ 18
-endif
 
 endfunc
 
