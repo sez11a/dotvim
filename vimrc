@@ -81,6 +81,7 @@ if (&foldcolumn != 12)
     set numberwidth=10
     set foldcolumn=12
     set noruler
+    set nonumber
     hi FoldColumn ctermbg=none
     hi LineNr ctermfg=0 ctermbg=none
     hi NonText ctermfg=0
@@ -94,6 +95,7 @@ else
     set numberwidth=4
     set foldcolumn=0
     set ruler
+    set number
     execute 'colorscheme ' . g:colors_name
 
     if has ('gui_running')
@@ -103,7 +105,6 @@ else
     endif
 
 endif
-
 
 endfunc
 
