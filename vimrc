@@ -88,6 +88,7 @@ if (&foldcolumn != 12)
 
     if has ('gui_running')
 	    set guifont=PT\ Mono\ 18
+        set guioptions-=T
     endif
 
 else
@@ -100,6 +101,7 @@ else
 
     if has ('gui_running')
             set guifont=PT\ Mono\ 10
+            set guioptions+=T
             execute "set colorcolumn=" . join(range(81,335), ',')
             hi ColorColumn guibg=#2d2d2d ctermbg=246
     endif
