@@ -29,7 +29,12 @@ set expandtab
 set ignorecase
 set smartcase
 set number
+set wrap
+set linebreak
+set nolist
+set textwidth=0
 set clipboard=unnamedplus
+
 " execute "set colorcolumn=" . join(range(81,335), ',')
 " hi ColorColumn guibg=#2d2d2d ctermbg=246
 
@@ -63,8 +68,7 @@ com! WP call WordProcessorMode()
 " Back to code mode
 func! CodeMode()
         setlocal expandtab
-        set nowrap
-
+        set textwidth=0
 endfu
 com! CODE call CodeMode()
 
