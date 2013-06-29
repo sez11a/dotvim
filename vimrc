@@ -116,3 +116,4 @@ endif
 endfunc
 
 nnoremap <F4> :call ToggleFocusMode()<cr>
+nnoremap <F5> :Latexmk
