@@ -48,6 +48,8 @@ au FocusLost * :wa
 filetype plugin on
 set ofu=syntaxcomplete#Complete
 
+let g:vim_markdown_folding_disabled=1
+
 " Custom key combos
 nmap <silent> <F3> :NERDTreeToggle<CR>
 
