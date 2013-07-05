@@ -10,3 +10,6 @@
 [submodule "bundle/vimoutliner"]
 	path = bundle/vimoutliner
 	url = git://github.com/vimoutliner/vimoutliner.git
+[submodule "bundle/LateX-Box"]
+	path = bundle/LateX-Box
+	url = https://github.com/LaTeX-Box-Team/LaTeX-Box.git
