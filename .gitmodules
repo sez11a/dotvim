@@ -4,12 +4,12 @@
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = http://github.com/tpope/vim-surround.git
-[submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/vimoutliner"]
-	path = bundle/vimoutliner
-	url = git://github.com/vimoutliner/vimoutliner.git
-[submodule "bundle/LateX-Box"]
-	path = bundle/LateX-Box
-	url = https://github.com/LaTeX-Box-Team/LaTeX-Box.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/LaTeX-Box"]
+	path = bundle/LaTeX-Box
+	url = git://github.com/LaTeX-Box-Team/LaTeX-Box.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
