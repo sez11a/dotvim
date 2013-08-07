@@ -22,8 +22,9 @@ colorscheme xoria256-pluk
 " colorscheme black_angus
 
 " No vi compatibility
-set laststatus=2
 set nocompatible
+let g:airline_detect_whitespace=0
+set laststatus=2
 
 set tabstop=4
 set expandtab 
