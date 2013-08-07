@@ -22,6 +22,7 @@ colorscheme xoria256-pluk
 " colorscheme black_angus
 
 " No vi compatibility
+set laststatus=2
 set nocompatible
 
 set tabstop=4
@@ -36,9 +37,6 @@ set linebreak
 set nolist
 set textwidth=0
 set clipboard=unnamedplus
-
-" execute "set colorcolumn=" . join(range(81,335), ',')
-" hi ColorColumn guibg=#2d2d2d ctermbg=246
 
 " nnoremap j gj
 " nnoremap k gk
@@ -86,10 +84,10 @@ com! CODE call CodeMode()
 """ FocusMode
 function! ToggleFocusMode()
 if (&foldcolumn != 12)
-    set laststatus=0
+"    set laststatus=0
     set numberwidth=10
     set foldcolumn=12
-    set noruler
+"    set noruler
     set nonumber
     hi FoldColumn ctermbg=none
     hi LineNr ctermfg=0 ctermbg=none
@@ -111,8 +109,6 @@ else
     if has ('gui_running')
             set guifont=PT\ Mono\ 10
             set guioptions+=T
-            execute "set colorcolumn=" . join(range(81,335), ',')
-            hi ColorColumn guibg=#2d2d2d ctermbg=246
     endif
 
 endif
@@ -120,4 +116,4 @@ endif
 endfunc
 
 nnoremap <F4> :call ToggleFocusMode()<cr>
-nnoremap <F5> :Latexmk
+nnoremap <F5> :Latexmk<cr>

@@ -13,3 +13,6 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "/home/rsezov/.vim/bundle/vim-airline"]
+	path = /home/rsezov/.vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline
