@@ -24,6 +24,7 @@ colorscheme xoria256-pluk
 " No vi compatibility
 set nocompatible
 let g:airline_detect_whitespace=0
+let g:airline_powerline_fonts = 1
 set laststatus=2
 
 set tabstop=4
