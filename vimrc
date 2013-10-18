@@ -44,7 +44,7 @@ set clipboard=unnamedplus
 " nnoremap k gk
 
 " Save when focus is lost
-au FocusLost * :wa
+" au FocusLost * :wa
 
 " Turn on omnicompletion
 filetype plugin on
@@ -65,6 +65,8 @@ func! WordProcessorMode()
   " setlocal linebreak 
   set wrap
   set textwidth=80
+  " Look like WordStar
+  colorscheme campfire
 
 endfu 
 com! WP call WordProcessorMode()
@@ -73,6 +75,7 @@ com! WP call WordProcessorMode()
 func! CodeMode()
         setlocal expandtab
         set textwidth=0
+        colorscheme xoria256-pluk
 endfu
 com! CODE call CodeMode()
 
