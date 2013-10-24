@@ -66,6 +66,7 @@ func! WordProcessorMode()
   set wrap
   set textwidth=80
   " Look like WordStar
+"  colorscheme adaryn
   colorscheme campfire
 
 endfu 
