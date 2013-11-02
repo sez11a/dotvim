@@ -6,7 +6,8 @@ filetype plugin indent on
 
 " Set the font and window size
 if has ('gui_running')
-	set guifont=PT\ Mono\ 10
+	"set guifont=PT\ Mono\ 10
+	set guifont=Envy\ Code\ R\ 10
 	set lines=50
 	set columns=150
 endif
@@ -67,7 +68,7 @@ func! WordProcessorMode()
   set textwidth=80
   " Look like WordStar
 "  colorscheme adaryn
-  colorscheme campfire
+  colorscheme xoria256-sez
 
 endfu 
 com! WP call WordProcessorMode()
@@ -100,7 +101,7 @@ if (&foldcolumn != 12)
     hi NonText ctermfg=0
 
     if has ('gui_running')
-	    set guifont=PT\ Mono\ 18
+	    set guifont=Envy\ Code\ R\ 18
         set guioptions-=T
     endif
 
@@ -113,7 +114,7 @@ else
     execute 'colorscheme ' . g:colors_name
 
     if has ('gui_running')
-            set guifont=PT\ Mono\ 10
+            set guifont=Envy\ Code\ R\ 10
             set guioptions+=T
     endif
 
