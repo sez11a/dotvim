@@ -7,7 +7,8 @@ filetype plugin indent on
 " Set the font and window size
 if has ('gui_running')
 	"set guifont=PT\ Mono\ 10
-	set guifont=Envy\ Code\ R\ 10
+	"set guifont=Envy\ Code\ R\ 10
+    set guifont=Anonymous\ Pro\ 11
 	set lines=50
 	set columns=150
 endif
@@ -101,7 +102,8 @@ if (&foldcolumn != 12)
     hi NonText ctermfg=0
 
     if has ('gui_running')
-	    set guifont=Envy\ Code\ R\ 18
+	   " set guifont=Envy\ Code\ R\ 18
+        set guifont=Anonymous\ Pro\ 18
         set guioptions-=T
     endif
 
@@ -114,7 +116,8 @@ else
     execute 'colorscheme ' . g:colors_name
 
     if has ('gui_running')
-            set guifont=Envy\ Code\ R\ 10
+           " set guifont=Envy\ Code\ R\ 10
+            set guifont=Anonymous\ Pro\ 11
             set guioptions+=T
     endif
 
