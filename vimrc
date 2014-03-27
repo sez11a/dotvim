@@ -69,7 +69,8 @@ func! WordProcessorMode()
   set textwidth=80
   " Look like WordStar
 "  colorscheme adaryn
-  colorscheme xoria256-sez
+"  colorscheme xoria256-sez
+  colorscheme transparent
 
 endfu 
 com! WP call WordProcessorMode()
