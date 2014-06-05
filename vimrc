@@ -8,7 +8,7 @@ filetype plugin indent on
 if has ('gui_running')
 	"set guifont=PT\ Mono\ 10
 	"set guifont=Envy\ Code\ R\ 10
-    set guifont=Anonymous\ Pro\ 11
+    set guifont=Anonymous\ Pro\ 12
 	set lines=50
 	set columns=150
 endif
@@ -25,6 +25,7 @@ colorscheme xoria256-pluk
 
 " No vi compatibility
 set nocompatible
+set encoding=utf-8
 let g:airline_detect_whitespace=0
 let g:airline_powerline_fonts = 1
 set laststatus=2
@@ -118,7 +119,7 @@ else
 
     if has ('gui_running')
            " set guifont=Envy\ Code\ R\ 10
-            set guifont=Anonymous\ Pro\ 11
+            set guifont=Anonymous\ Pro\ 12
             set guioptions+=T
     endif
 
