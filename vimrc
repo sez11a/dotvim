@@ -71,7 +71,7 @@ func! WordProcessorMode()
   " Look like WordStar
 "  colorscheme adaryn
 "  colorscheme xoria256-sez
-  colorscheme transparent
+"  colorscheme transparent
 
 endfu 
 com! WP call WordProcessorMode()
@@ -80,7 +80,7 @@ com! WP call WordProcessorMode()
 func! CodeMode()
         setlocal expandtab
         set textwidth=0
-        colorscheme xoria256-pluk
+"        colorscheme xoria256-pluk
 endfu
 com! CODE call CodeMode()
 
