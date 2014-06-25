@@ -10,7 +10,7 @@ if has ('gui_running')
 	"set guifont=Envy\ Code\ R\ 10
     set guifont=Anonymous\ Pro\ 12
 	set lines=50
-	set columns=150
+	set columns=100
 endif
 
 " colorscheme slate
@@ -20,8 +20,12 @@ set background=dark
 " colorscheme solarized
 " colorscheme adaryn
 " colorscheme af
-colorscheme xoria256-pluk
+" colorscheme xoria256-pluk
 " colorscheme black_angus
+" colorscheme kolor
+" colorscheme lucius
+" colorscheme jellybeans
+colorscheme xoria256
 
 " No vi compatibility
 set nocompatible

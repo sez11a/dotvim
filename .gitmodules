@@ -37,3 +37,15 @@
 [submodule "bundle/VimOrganizer"]
 	path = bundle/VimOrganizer
 	url = git://github.com/hsitz/VimOrganizer.git
+[submodule "bundle/vim-lucius"]
+	path = bundle/vim-lucius
+	url = git://github.com/jonathanfilip/vim-lucius
+[submodule "bundle/vim-kolor"]
+	path = bundle/vim-kolor
+	url = git://github.com/zeis/vim-kolor
+[submodule "bundle/vim-jellybeans"]
+	path = bundle/vim-jellybeans
+	url = git://github.com/nanotech/jellybeans.vim
+[submodule "bundle/vim-xoria256"]
+	path = bundle/vim-xoria256
+	url = git://github.com/vim-scripts/xoria256.vim
