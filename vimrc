@@ -8,7 +8,7 @@ filetype plugin indent on
 if has ('gui_running')
 	"set guifont=PT\ Mono\ 10
 	"set guifont=Envy\ Code\ R\ 10
-    set guifont=Anonymous\ Pro\ 12
+    set guifont=Anonymous\ Pro\ for\ Powerline\ 12
 	set lines=50
 	set columns=100
 endif
@@ -111,7 +111,7 @@ if (&foldcolumn != 12)
 
     if has ('gui_running')
 	   " set guifont=Envy\ Code\ R\ 18
-        set guifont=Anonymous\ Pro\ 18
+        set guifont=Anonymous\ Pro\ for\ Powerline\ 18
         set guioptions-=T
     endif
 
