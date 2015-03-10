@@ -45,6 +45,7 @@ set wrap
 set linebreak
 set nolist
 set textwidth=0
+set ttyscroll=0
 "set clipboard=unnamedplus
 
 " nnoremap j gj

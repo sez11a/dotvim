@@ -46,3 +46,9 @@
 [submodule "bundle/vim-xoria256"]
 	path = bundle/vim-xoria256
 	url = git://github.com/vim-scripts/xoria256.vim
+[submodule "bundle/vimoutliner"]
+	path = bundle/vimoutliner
+	url = git://github.com/vimoutliner/vimoutliner.git
+[submodule "bundle/golded"]
+	path = bundle/golded
+	url = http://github.com/vim-scripts/golded.vim
