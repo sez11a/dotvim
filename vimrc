@@ -115,8 +115,8 @@ if (&foldcolumn != 12)
     if has ('gui_running')
 	   " set guifont=Envy\ Code\ R\ 18
        " set guifont=Anonymous\ Pro\ for\ Powerline\ 18
-       set guifont=Input\ Mono\ 18
-        set guioptions-=T
+       set guifont=Input\ Mono\ Regular\ 18
+       set guioptions-=T
     endif
 
 else
@@ -130,7 +130,7 @@ else
     if has ('gui_running')
            " set guifont=Envy\ Code\ R\ 10
            " set guifont=Anonymous\ Pro\ 12
-           set guifont=Input\ Mono\ 12
+           set guifont=Input\ Mono\ Regular\ 12
             set guioptions+=T
     endif
 
