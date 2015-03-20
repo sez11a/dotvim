@@ -8,7 +8,8 @@ filetype plugin indent on
 if has ('gui_running')
 	"set guifont=PT\ Mono\ 10
 	"set guifont=Envy\ Code\ R\ 10
-    set guifont=Anonymous\ Pro\ for\ Powerline\ 12
+    "set guifont=Anonymous\ Pro\ for\ Powerline\ 12
+    set guifont=Input\ Mono\ 12
 	set lines=50
 	set columns=100
 endif
@@ -30,7 +31,8 @@ colorscheme xoria256
 " No vi compatibility
 set nocompatible
 set encoding=utf-8
-let g:airline_detect_whitespace=0
+"let g:airline_detect_whitespace=0
+"let g:airline#extensions#whitespace#enabled
 let g:airline_powerline_fonts = 1
 set laststatus=2
 
@@ -112,7 +114,8 @@ if (&foldcolumn != 12)
 
     if has ('gui_running')
 	   " set guifont=Envy\ Code\ R\ 18
-        set guifont=Anonymous\ Pro\ for\ Powerline\ 18
+       " set guifont=Anonymous\ Pro\ for\ Powerline\ 18
+       set guifont=Input\ Mono\ 18
         set guioptions-=T
     endif
 
@@ -126,7 +129,8 @@ else
 
     if has ('gui_running')
            " set guifont=Envy\ Code\ R\ 10
-            set guifont=Anonymous\ Pro\ 12
+           " set guifont=Anonymous\ Pro\ 12
+           set guifont=Input\ Mono\ 12
             set guioptions+=T
     endif
 

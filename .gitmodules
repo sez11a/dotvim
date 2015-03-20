@@ -52,3 +52,6 @@
 [submodule "bundle/golded"]
 	path = bundle/golded
 	url = http://github.com/vim-scripts/golded.vim
+[submodule "bundle/vim-gradle"]
+	path = bundle/vim-gradle
+	url = https://github.com/tfnico/vim-gradle.git
