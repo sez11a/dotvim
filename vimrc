@@ -9,7 +9,7 @@ if has ('gui_running')
 	"set guifont=PT\ Mono\ 10
 	"set guifont=Envy\ Code\ R\ 10
     "set guifont=Anonymous\ Pro\ for\ Powerline\ 12
-    set guifont=Input\ Mono\ 12
+    set guifont=Input\ Mono\ 11
 	set lines=50
 	set columns=100
 endif
@@ -61,6 +61,8 @@ filetype plugin on
 set ofu=syntaxcomplete#Complete
 
 let g:vim_markdown_folding_disabled=1
+
+let g:airline#extensions#whitespace#enabled=0
 
 " Custom key combos
 nmap <silent> <F3> :NERDTreeToggle<CR>
@@ -130,7 +132,7 @@ else
     if has ('gui_running')
            " set guifont=Envy\ Code\ R\ 10
            " set guifont=Anonymous\ Pro\ 12
-           set guifont=Input\ Mono\ Regular\ 12
+           set guifont=Input\ Mono\ Regular\ 11
             set guioptions+=T
     endif
 
