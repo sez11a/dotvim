@@ -8,12 +8,12 @@ filetype plugin indent on
 if has ('gui_running')
 "	set guifont=PT\ Mono\ 12
 	"set guifont=Envy\ Code\ R\ 10
-   " set guifont=Anonymous\ Pro\ for\ Powerline\ 12
+    set guifont=Anonymous\ Pro\ for\ Powerline\ 12
     "set guifont=Input\ Mono\ 11
     "set guifont=Inconsolata\ 11
    "  set guifont=Fantasque\ Sans\ Mono\ 13
    " set guifont=Oxygen\ Mono 12
-    set guifont=Code\ New\ Roman\ 12
+   " set guifont=Code\ New\ Roman\ 12
    "set guifont=Monaco\ for\ Powerline\ 12
 	set lines=50
 	set columns=100
@@ -121,13 +121,13 @@ if (&foldcolumn != 12)
 
     if has ('gui_running')
 	   " set guifont=Envy\ Code\ R\ 18
-       " set guifont=Anonymous\ Pro\ for\ Powerline\ 18
+        set guifont=Anonymous\ Pro\ for\ Powerline\ 18
        "set guifont=Input\ Mono\ 18
       " set guifont=Fantasque\ Sans\ Mono\ 18
        " set guifont=Oxygen\ Mono\ 18
     "   set guifont=PT\ Mono\ 18
        "set guifont=Inconsolata\ 18
-       set guifont=Code\ New\ Roman\ 18
+      " set guifont=Code\ New\ Roman\ 18
        set guioptions-=T
     endif
 
@@ -142,12 +142,12 @@ else
     if has ('gui_running')
            " set guifont=Envy\ Code\ R\ 10
 	   "     set guifont=PT\ Mono\ 12
-           " set guifont=Anonymous\ Pro\ for\ Powerline\ 12
+            set guifont=Anonymous\ Pro\ for\ Powerline\ 12
            "set guifont=Input\ Mono\ 11
            "set guifont=Inconsolata\ 11
           " set guifont=Fantasque\ Sans\ Mono\ 13
           " set guifont=Oxygen\ Mono 12
-           set guifont=Code\ New\ Roman\ 12
+          " set guifont=Code\ New\ Roman\ 12
             set guioptions+=T
     endif
 
