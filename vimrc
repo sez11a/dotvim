@@ -6,13 +6,15 @@ filetype plugin indent on
 
 " Set the font and window size
 if has ('gui_running')
-	"set guifont=PT\ Mono\ 10
+"	set guifont=PT\ Mono\ 12
 	"set guifont=Envy\ Code\ R\ 10
-    "set guifont=Anonymous\ Pro\ for\ Powerline\ 12
+   " set guifont=Anonymous\ Pro\ for\ Powerline\ 12
     "set guifont=Input\ Mono\ 11
     "set guifont=Inconsolata\ 11
-    set guifont=Fantasque\ Sans\ Mono\ 13
-   " set guifont=Code\ New\ Roman\ 12
+   "  set guifont=Fantasque\ Sans\ Mono\ 13
+   " set guifont=Oxygen\ Mono 12
+    set guifont=Code\ New\ Roman\ 12
+   "set guifont=Monaco\ for\ Powerline\ 12
 	set lines=50
 	set columns=100
 endif
@@ -72,8 +74,6 @@ nmap <silent> <F3> :NERDTreeToggle<CR>
 
 func! WordProcessorMode() 
   " setlocal formatoptions=1 
-  map j gj 
-  map k gk
   setlocal spell spelllang=en_us 
   set thesaurus+=/home/rsezov/.vim/thesaurus/mthesaur.txt
   set complete+=s
@@ -91,6 +91,8 @@ com! WP call WordProcessorMode()
 
 " Back to code mode
 func! CodeMode()
+        map j gj 
+        map k gk
         setlocal expandtab
         set textwidth=0
         colorscheme xoria256
@@ -121,9 +123,11 @@ if (&foldcolumn != 12)
 	   " set guifont=Envy\ Code\ R\ 18
        " set guifont=Anonymous\ Pro\ for\ Powerline\ 18
        "set guifont=Input\ Mono\ 18
-       set guifont=Fantasque\ Sans\ Mono\ 18
+      " set guifont=Fantasque\ Sans\ Mono\ 18
+       " set guifont=Oxygen\ Mono\ 18
+    "   set guifont=PT\ Mono\ 18
        "set guifont=Inconsolata\ 18
-       "set guifont=Code\ New\ Roman\ 18
+       set guifont=Code\ New\ Roman\ 18
        set guioptions-=T
     endif
 
@@ -137,11 +141,13 @@ else
 
     if has ('gui_running')
            " set guifont=Envy\ Code\ R\ 10
-           " set guifont=Anonymous\ Pro\ 12
+	   "     set guifont=PT\ Mono\ 12
+           " set guifont=Anonymous\ Pro\ for\ Powerline\ 12
            "set guifont=Input\ Mono\ 11
            "set guifont=Inconsolata\ 11
-           set guifont=Fantasque\ Sans\ Mono\ 13
-            "set guifont=Code\ New\ Roman\ 12
+          " set guifont=Fantasque\ Sans\ Mono\ 13
+          " set guifont=Oxygen\ Mono 12
+           set guifont=Code\ New\ Roman\ 12
             set guioptions+=T
     endif
 

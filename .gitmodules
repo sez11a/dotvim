@@ -55,3 +55,6 @@
 [submodule "bundle/vim-gradle"]
 	path = bundle/vim-gradle
 	url = https://github.com/tfnico/vim-gradle.git
+[submodule "bundle/todotxt"]
+	path = bundle/todotxt
+	url = https://github.com/freitass/todo.txt-vim.git
