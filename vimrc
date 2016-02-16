@@ -74,8 +74,8 @@ nmap <silent> <F3> :NERDTreeToggle<CR>
 
 func! WordProcessorMode() 
   " setlocal formatoptions=1 
-  setlocal spell spelllang=en_us 
-  set thesaurus+=/home/rsezov/.vim/thesaurus/mthesaur.txt
+  set spell spelllang=en_us 
+  set thesaurus+=~/.vim/thesaurus/mthesaur.txt
   set complete+=s
   " setlocal linebreak 
   set wrap
@@ -121,7 +121,8 @@ if (&foldcolumn != 12)
 
     if has ('gui_running')
 	   " set guifont=Envy\ Code\ R\ 18
-        set guifont=Anonymous\ Pro\ for\ Powerline\ 18
+      "  set guifont=Anonymous\ Pro\ for\ Powerline\ 18
+      set guifont=TopazPlus\ a500a1000a2000\ 18
        "set guifont=Input\ Mono\ 18
       " set guifont=Fantasque\ Sans\ Mono\ 18
        " set guifont=Oxygen\ Mono\ 18
