@@ -41,6 +41,7 @@ set encoding=utf-8
 let g:airline_powerline_fonts = 1
 set laststatus=2
 
+set backspace=indent,eol,start
 set tabstop=4
 set expandtab 
 set softtabstop=4
@@ -121,8 +122,8 @@ if (&foldcolumn != 12)
 
     if has ('gui_running')
 	   " set guifont=Envy\ Code\ R\ 18
-      "  set guifont=Anonymous\ Pro\ for\ Powerline\ 18
-      set guifont=TopazPlus\ a500a1000a2000\ 18
+       set guifont=Anonymous\ Pro\ for\ Powerline\ 18
+     " set guifont=TopazPlus\ a500a1000a2000\ 18
        "set guifont=Input\ Mono\ 18
       " set guifont=Fantasque\ Sans\ Mono\ 18
        " set guifont=Oxygen\ Mono\ 18
