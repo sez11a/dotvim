@@ -58,3 +58,6 @@
 [submodule "bundle/todotxt"]
 	path = bundle/todotxt
 	url = https://github.com/freitass/todo.txt-vim.git
+[submodule "bundle/vim-speeddating"]
+	path = bundle/vim-speeddating
+	url = https://github.com/tpope/vim-speeddating.git
