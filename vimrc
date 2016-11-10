@@ -53,7 +53,7 @@ set wrap
 set linebreak
 set nolist
 set textwidth=0
-set ttyscroll=0
+"set ttyscroll=0
 "set clipboard=unnamedplus
 
 " nnoremap j gj
@@ -120,18 +120,16 @@ if (&foldcolumn != 12)
     hi LineNr ctermfg=0 ctermbg=none
     hi NonText ctermfg=0
 
-    if has ('gui_running')
-	   " set guifont=Envy\ Code\ R\ 18
-       set guifont=Anonymous\ Pro\ for\ Powerline\ 18
-     " set guifont=TopazPlus\ a500a1000a2000\ 18
-       "set guifont=Input\ Mono\ 18
-      " set guifont=Fantasque\ Sans\ Mono\ 18
-       " set guifont=Oxygen\ Mono\ 18
-    "   set guifont=PT\ Mono\ 18
-       "set guifont=Inconsolata\ 18
-      " set guifont=Code\ New\ Roman\ 18
-       set guioptions-=T
-    endif
+"    if has ('nvim')
+        autocmd VimEnter * set guifont=Anonymous\ Pro\ for\ Powerline\ 18 
+"    else
+
+"        if has ('gui_running')
+           set guifont=Anonymous\ Pro\ for\ Powerline\ 18
+           set guioptions-=T
+"        endif
+
+"    endif
 
 else
     set laststatus=2
